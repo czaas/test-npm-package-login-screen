@@ -1,0 +1,28 @@
+{
+	"name": "test-npm-package-login-screen",
+	"version": "1.0.0",
+	"description": "This is a test.",
+	"source": "./src/index.ts",
+	"main": "./dist/LoginScreen.js",
+	"umd:main": "./dist/LoginScreen.umd.js",
+	"module": "./dist/LoginScreen.mjs",
+	"types": "./dist/LoginScreen.d.ts",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"build:app": "parcel build src/index.html --out-dir dist/app",
+		"build:package": "microbundle --output dist/package",
+		"build": "yarn build:app && yarn build:package",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "czaas",
+	"license": "ISC",
+	"devDependencies": {
+		"microbundle": "0.11.0"
+	},
+	"dependencies": {
+		"add": "^2.0.6",
+		"parcel-bundler": "^1.12.3",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	}
+}
