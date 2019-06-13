@@ -12,16 +12,16 @@
 		"build:app": "parcel build src/index.html --out-dir dist/app",
 		"build:package": "microbundle --output dist/package",
 		"build": "yarn build:app && yarn build:package",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\""
 	},
 	"author": "czaas",
 	"license": "ISC",
 	"devDependencies": {
-		"microbundle": "0.11.0"
+		"microbundle": "0.11.0",
+		"np": "^5.0.3",
+		"parcel-bundler": "^1.12.3"
 	},
 	"dependencies": {
-		"add": "^2.0.6",
-		"parcel-bundler": "^1.12.3",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6"
 	}
