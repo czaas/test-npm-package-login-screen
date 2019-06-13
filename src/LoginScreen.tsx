@@ -19,7 +19,7 @@ export function LoginScreen(props: LoginScreenProps) {
 	}
 	return (
 		<form onSubmit={handleSubmit}>
-			<h1>TODO: Build a form</h1>
+			<h1>Sign In</h1>
 			<input
 				name="email"
 				placeholder="Enter your email address"
