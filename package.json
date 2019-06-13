@@ -7,6 +7,9 @@
 	"umd:main": "./dist/LoginScreen.umd.js",
 	"module": "./dist/LoginScreen.mjs",
 	"types": "./dist/LoginScreen.d.ts",
+	"repository": {
+		"url": "https://github.com/czaas/test-npm-package-login-screen"
+	},
 	"scripts": {
 		"start": "parcel src/index.html",
 		"build:app": "parcel build src/index.html --out-dir dist/app",
