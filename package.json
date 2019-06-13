@@ -3,10 +3,10 @@
 	"version": "1.1.2",
 	"description": "This is a test.",
 	"source": "./src/index.ts",
-	"main": "./dist/package/index.js",
-	"umd:main": "./dist/package/LoginScreen.umd.js",
-	"module": "./dist/package/LoginScreen.mjs",
-	"types": "./dist/package/LoginScreen.d.ts",
+	"main": "./dist/package/test-npm-package-login-screen.js",
+	"umd:main": "./dist/package/test-npm-package-login-screen.umd.js",
+	"module": "./dist/package/test-npm-package-login-screen.mjs",
+	"types": "./dist/package/index.d.ts",
 	"repository": {
 		"url": "https://github.com/czaas/test-npm-package-login-screen"
 	},
